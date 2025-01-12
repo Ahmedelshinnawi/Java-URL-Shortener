@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: "Poppins", sans-serif;
+      }
+      .container {
+        max-width: 700px;
+        height: 30vh;
+        margin: 105px auto;
+        padding: 80px;
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      form {
+        margin-bottom: 20px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #333;
+        border-radius: 4px;
+        background-color: #2e2e2e;
+        color: #e0e0e0;
+        font-size: 20px;
+        padding-right: 20px;
+      }
+      input[type="submit"] {
+        padding: 10px 25px;
+        border: none;
+        border-radius: 4px;
+        background-color: #6200ea;
+        color: #e0e0e0;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      input[type="submit"]:hover {
+        background-color: #3700b3;
+        transition: ease-in-out 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL Shortener</h1>
+      <form method="GET" action="/shorten">
+        Enter URL to be shortened: <input type="text" name="url" />
+        <input type="submit" value="Shorten" />
+      </form>
+    </div>
+  </body>
+</html>
