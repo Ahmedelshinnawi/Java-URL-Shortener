@@ -7,8 +7,8 @@ the original URL.
  - **Shorten URLs**: Convert long URLs into shorter, more manageable links.
  - **Redirect**: Accessing the shortened URL redirects the user to the original long URL.
 
-   ## Getting Started
-   ### Prerequisites
+## Getting Started
+  ### Prerequisites
    - Java Development Kit (JDK) 8 or higher
    ### Installation
    1. **Clone the repository**:
