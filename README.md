@@ -54,7 +54,7 @@ the original URL.
     └── README.md
 
   - **src**: Contains the Java source files.
-  - **public**: Contains the Static HTML files for the web interfac.
+  - **public**: Contains the Static HTML files for the web interface.
 
  ## Contributing
  Contributions are welcome! Please fork this repository and submit a pull request 
